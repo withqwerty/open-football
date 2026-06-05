@@ -24,6 +24,7 @@ One honest gap worth naming: genuinely open event or tracking data from Africa, 
 - [Wikidata](#wikidata)
 - [Video and assets](#video-and-assets)
 - [Learning and references](#learning-and-references)
+- [Licence glossary](#licence-glossary)
 
 ## Event data
 
@@ -140,3 +141,32 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guidelines.
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](LICENSE)
 
 To the extent possible under law, [withqwerty](https://www.withqwerty.com) has waived all copyright and related or neighbouring rights to this curated list (the list itself; the linked resources carry their own licences). See [LICENSE](LICENSE).
+
+## Licence glossary
+
+A plain-English guide to the licences referenced above. This is a friendly summary, not legal advice — read the actual licence before you rely on it, especially for commercial use.
+
+**Data licences** (cover the datasets)
+
+- **CC0 / public domain** — Do whatever you like, no strings attached. Crediting the source is polite but not required. The most permissive option.
+- **CC BY 4.0** (Attribution) — Free to use, including commercially, as long as you credit the source.
+- **CC BY-SA 4.0** (Attribution-ShareAlike) — Free to use commercially, but you must credit the source *and* release anything you build from it under the same licence. "Share-alike" means passing the same freedom on.
+- **ODC-BY** (Open Data Commons Attribution) — Like CC BY, but written specifically for databases: use freely, just credit the source.
+- **ODbL** (Open Database License) — Like CC BY-SA for databases: use and adapt freely, but credit the source and share any adapted database under the same terms.
+
+**Software licences** (cover the tools, scrapers, and libraries)
+
+- **MIT** — Do almost anything (use, modify, sell); just keep the original copyright notice. The most common permissive licence.
+- **BSD-3-Clause** — Practically the same as MIT, with one extra rule: you can't use the original authors' names to promote your version.
+- **Apache-2.0** — Permissive like MIT, plus an explicit patent grant that protects you from patent claims by contributors. Common for larger projects.
+- **MPL-2.0** (Mozilla Public License) — A middle ground: you can use it inside closed-source software, but changes to the MPL-licensed files themselves must stay open.
+- **GPL-3.0** — "Copyleft": use and modify freely, but if you distribute software built on it, that whole work must also be open-sourced under the GPL. Good for keeping things open, restrictive if you want to keep your own code private.
+
+**Other arrangements you'll see here**
+
+- **Custom attribution licence** (e.g. StatsBomb) — Free to use, but on the provider's own terms — typically credit them, show their logo, and don't resell the data. Read their licence file.
+- **Non-commercial, with citation** (e.g. engsoccerdata) — Free for research, learning, and personal projects, but not for commercial use, and you should cite it.
+- **Non-standard or unstated licence** (e.g. Fantasy-Premier-League, Last Row) — No clear open licence attached. Usually fine for personal and research use with credit, but legally ambiguous for commercial use — ask the author if it matters.
+- **Free for research, citation required** (e.g. Alfheim/Simula) — Open for academic and research use as long as you cite the dataset; commercial use may need permission.
+
+One practical point: a dataset's licence covers the **data**, and a tool's licence covers the **code**. Using an open-source scraper (say, MIT-licensed) to pull data from a website does not give you any rights over that website's data — the source's own terms still apply.
