@@ -1,6 +1,6 @@
 # open-football
 
-> A curated map of open football (soccer) data: free datasets and exports, plus the scrapers and tooling to use them.
+> A curated map of open football (soccer) data: free datasets, free exports, and the essentials for working with them.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
 
@@ -17,9 +17,7 @@ One honest gap worth naming: genuinely open event or tracking data from Africa, 
 - [Results and fixtures](#results-and-fixtures)
 - [Fantasy and ID maps](#fantasy-and-id-maps)
 - [Stats and ratings](#stats-and-ratings)
-- [Scrapers and collection](#scrapers-and-collection)
-- [Loaders, models and tooling](#loaders-models-and-tooling)
-- [Visualisation](#visualisation)
+- [Working with the data](#working-with-the-data)
 - [Identity and cross-provider mapping](#identity-and-cross-provider-mapping)
 - [Wikidata](#wikidata)
 - [Video and assets](#video-and-assets)
@@ -73,30 +71,17 @@ One honest gap worth naming: genuinely open event or tracking data from Africa, 
 - [Club Elo](http://clubelo.com/) - Daily Elo ratings for European clubs back to 1939, with a free, keyless CSV API (http only).
 - [American Soccer Analysis](https://www.americansocceranalysis.com/) - Free public app and API for advanced MLS, NWSL and USL metrics (xG, goals added/g+, xPass).
 
-## Scrapers and collection
 
-- [soccerdata](https://github.com/probberechts/soccerdata) - Python package scraping Club Elo, ESPN, FBref, football-data.co.uk, Sofascore, SoFIFA, Understat and WhoScored into tidy DataFrames. Apache 2.0.
-- [ScraperFC](https://github.com/oseymour/ScraperFC) - Python package scraping Capology, Club Elo, FBref, Sofascore, Transfermarkt and Understat. GPL-3.0.
-- [worldfootballR](https://github.com/JaseZiv/worldfootballR) - The canonical R scraper for FBref, Transfermarkt and Understat. Archived September 2025 but still on CRAN and widely used. MIT.
-- [itscalledsoccer](https://github.com/American-Soccer-Analysis/itscalledsoccer) - Official Python and R client for the American Soccer Analysis API. MIT.
-- [nwslR](https://github.com/adror1/nwslR) - R package consolidating NWSL player, team and match data. GPL-3.0.
+## Working with the data
 
-## Loaders, models and tooling
+Once you have the data, you need to load, model, and plot it. A few essentials:
 
-- [kloppy](https://github.com/PySport/kloppy) - Standardises loading and modelling of event and tracking data across 16+ providers (StatsBomb, Stats Perform/Opta, Wyscout, Sportec, Metrica, SkillCorner, Tracab, Second Spectrum, PFF, Hawk-Eye, and more). BSD-3.
-- [floodlight](https://github.com/floodlight-sports/floodlight) - High-level Python framework for loading and analysing tracking and event data across many providers. MIT.
-- [databallpy](https://github.com/Alek050/databallpy) - Python library to load and synchronise event and tracking data, with built-in pressure, xG and xT models. MIT.
-- [socceraction](https://github.com/ML-KULeuven/socceraction) - SPADL and Atomic-SPADL action representations plus the xT and VAEP action-value models (maintenance mode).
-- [soccer_xg](https://github.com/ML-KULeuven/soccer_xg) - Train and analyse expected-goals models on Opta, Wyscout and StatsBomb data. Apache-2.0.
-- [unravelsports](https://github.com/UnravelSports/unravelsports) - Python toolkit turning tracking data into graphs (GNNs), with pressing intensity and formation detection. MPL-2.0.
-- [penaltyblog](https://github.com/martineastwood/penaltyblog) - Python modelling toolkit: Dixon-Coles and Bayesian goal models, team ratings, expected threat, and scrapers. MIT.
+- [kloppy](https://github.com/PySport/kloppy) - Loads and standardises event and tracking data across 16+ providers into one model (Python). BSD-3.
+- [socceraction](https://github.com/ML-KULeuven/socceraction) - SPADL action representation plus the xT and VAEP action-value models (Python).
+- [mplsoccer](https://github.com/andrewRowlinson/mplsoccer) - Pitches, radars and heatmaps for matplotlib, with StatsBomb loaders (Python). MIT.
+- [Campos](https://github.com/withqwerty/campos) - React component library for football charts, with provider adapters (the web/TypeScript counterpart to mplsoccer and kloppy).
 
-## Visualisation
-
-- [mplsoccer](https://github.com/andrewRowlinson/mplsoccer) - Pitch plotting and football visualisation for matplotlib, with multiple pitch types, radars, heatmaps and StatsBomb loaders (Python). MIT.
-- [ggsoccer](https://github.com/Torvaney/ggsoccer) - ggplot2 pitch plotting with multiple provider coordinate systems (R). MIT.
-- [d3-soccer](https://github.com/probberechts/d3-soccer) - D3 plugin for pitches, heatmaps and event visualisation (JavaScript/TypeScript). BSD-3.
-- [Campos](https://github.com/withqwerty/campos) - React component library for football charts, with adapters for common providers (the web/TypeScript counterpart to mplsoccer + kloppy).
+For the wider tooling ecosystem — more loaders, xG/xT/VAEP models, and visualisation in Python, R, and JavaScript — see the [PySport open-source index](https://opensource.pysport.org/?sports=Soccer) and [Edd Webster's football_analytics](https://github.com/eddwebster/football_analytics).
 
 ## Identity and cross-provider mapping
 
