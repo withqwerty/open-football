@@ -4,7 +4,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
 
-If you want to start working with football data and don't want to pay for it, there is far more out there than people realise. This list grew out of the running notes kept while building [the Reep Register](https://github.com/withqwerty/reep), an open identity layer for football data. The hard part was never access — it was knowing what exists and how the pieces fit.
+If you want to start working with football data and don't want to pay for it, there is far more out there than people realise. This list grew out of the running notes kept while building [the Reep Register](https://github.com/withqwerty/reep), an open identity layer for football data. Access is sometimes just about knowing what exists and how to find the right pieces you need.
 
 Everything here is open: released by the provider, publicly dumped, or open source. Licences vary and are noted where they matter. **This list does not endorse scraping in violation of any site's terms of service.**
 
