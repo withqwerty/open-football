@@ -28,13 +28,13 @@ One honest gap worth naming: genuinely open event or tracking data from Africa, 
 
 - [StatsBomb Open Data](https://github.com/statsbomb/open-data) - Free event data across 20+ competitions, men's and women's, including historical men's World Cups (1958, 1962, 1970, 1974, 1986, 1990) plus 2018 and 2022 (with 360 data), the Women's World Cups (2019 and 2023), and five women's leagues. Custom attribution licence.
 - [Wyscout — Pappalardo dataset](https://figshare.com/collections/Soccer_match_event_dataset/4415000) - Public Wyscout event data for the 2017/18 big-five leagues plus the 2018 World Cup and Euro 2016 (~1,941 games), by Pappalardo et al. (Nature Scientific Data, 2019). CC BY 4.0. [koenvo's repackage](https://github.com/koenvo/wyscout-soccer-match-event-dataset) restructures it as kloppy-loadable JSON.
-- [Impect Open Data](https://github.com/ImpectAPI/open-data) - Bundesliga 2023/24 sample with packing, packing-xG and possession value (pxT); loadable via kloppy.
+- [Impect Open Data](https://github.com/ImpectAPI/open-data) - Event data for the full 2023/24 Bundesliga season (306 matches), with packing, packing-xG, possession value (pxT) and per-match player KPIs; loadable via kloppy.
 - [Dynasty Scouting League 2024](https://github.com/Afriskaut/dynasty-scouting-league-2024-open-data) - Event data, lineups and match metadata from the 2024 Dynasty Scouting League, in JSONL. Apache 2.0.
 - [wosostats](https://github.com/amj2012/wosostats) - Hand-logged women's match event data from video (USWNT, NWSL, 2016 onward). Community-collected, now largely dormant. GPL-3.0.
 
 ## Tracking data
 
-- [SkillCorner Open Data](https://github.com/SkillCorner/opendata) - Broadcast tracking and physical data for 10 A-League 2024/25 matches, with off-ball runs and phases of play. MIT.
+- [SkillCorner Open Data](https://github.com/SkillCorner/opendata) - Broadcast tracking for 20 A-League 2024/25 matches, with dynamic events (off-ball runs; v3 format since September 2026), phases of play, season physical, off-ball run and passing aggregates, and 3D body pose for two matches. MIT.
 - [Metrica Sports Sample Data](https://github.com/metrica-sports/sample-data) - Anonymised, synchronised tracking and event data for 3 matches in CSV, EPTS and JSON formats.
 - [IDSSE-data](https://github.com/spoho-datascience/idsse-data) - Synchronised TRACAB tracking and DFL event data for 7 Bundesliga / 2. Bundesliga matches, from German Sport University Cologne. CC BY 4.0.
 - [PFF FC 2022 World Cup](https://www.blog.fc.pff.com/blog/pff-fc-release-2022-world-cup-data) - Broadcast tracking, event data and play-by-play grades for all 64 matches of the 2022 men's World Cup; free on access request, loadable via kloppy.
