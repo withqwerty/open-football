@@ -45,6 +45,7 @@ One honest gap worth naming: genuinely open event or tracking data from Africa, 
 ## Results and fixtures
 
 - [football-data.co.uk](https://www.football-data.co.uk/) - Results, match stats, and opening/closing betting odds in CSV/Excel across ~25 leagues, updated weekly.
+- [Superior Tips settled football predictions](https://github.com/st0jka/superior-tips-predictions-dataset) - 51,546 settled predictions across 629 competitions since September 2025, one row per published selection with kickoff, clubs, market, pick, the price at publication, the model probability and the 90 minute result, appended nightly in CSV with a seven day lag. CC BY 4.0.
 - [footballcsv](https://github.com/footballcsv) - League results in clean, public-domain CSV across England, Spain, Germany, Austria, MLS and more. CC0.
 - [football.json (openfootball)](https://github.com/openfootball/football.json) - Public-domain fixtures and results in JSON for the major European leagues, 2010/11 onward. CC0.
 - [openfootball/world](https://github.com/openfootball/world) - Results for African (Egypt, Morocco, Algeria, Nigeria) and Asian (China, Japan) leagues in the openfootball text format. CC0.
