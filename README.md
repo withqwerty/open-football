@@ -70,6 +70,7 @@ One honest gap worth naming: genuinely open event or tracking data from Africa, 
 - [Understat](https://understat.com/) - Shot-level data with xG for the top six European leagues; every table can be exported to CSV.
 - [Club Elo](http://clubelo.com/) - Daily Elo ratings for European clubs back to 1939, with a free, keyless CSV API (http only).
 - [American Soccer Analysis](https://www.americansocceranalysis.com/) - Free public app and API for advanced MLS, NWSL and USL metrics (xG, goals added/g+, xPass).
+- [Footalytics](https://footalytics.farvor.com/) - Public record of AI match predictions for the top leagues: win/draw/loss probabilities with confidence tiers and team ratings, graded after kickoff with results and Brier scores published as keyless CSV.
 
 
 ## Working with the data
