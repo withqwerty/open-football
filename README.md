@@ -58,6 +58,7 @@ One honest gap worth naming: genuinely open event or tracking data from Africa, 
 - [English Women's Football (EWF) Database](https://github.com/probjects/ewf-database) - Women's Super League (from 2011) and Championship (from 2014) matches, appearances and standings. CC BY-SA 4.0.
 - [European Soccer Database](https://www.kaggle.com/datasets/hugomathien/soccer) - SQLite database of 25,000+ matches with events, lineups (X/Y), FIFA player and team attributes, and bookmaker odds across 11 European leagues (2008–2016). ODbL.
 - [BrazilianFootball/Data](https://github.com/BrazilianFootball/Data) - ~11,000 Brazilian matches scraped from official CBF match dockets, Série A–D and Copa do Brasil (2013–2025). MIT.
+- [vereinsweg.de](https://www.vereinsweg.de/daten/) - Season-by-season histories of 129 German clubs (league tier, position, titles) plus their recorded competitive matches, as JSON and CSV per club. ODbL / CC BY-SA 4.0.
 
 ## Fantasy and ID maps
 
