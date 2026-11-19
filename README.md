@@ -46,7 +46,7 @@ One honest gap worth naming: genuinely open event or tracking data from Africa, 
 
 - [football-data.co.uk](https://www.football-data.co.uk/) - Results, match stats, and opening/closing betting odds in CSV/Excel across ~25 leagues, updated weekly.
 - [footballcsv](https://github.com/footballcsv) - League results in clean, public-domain CSV across England, Spain, Germany, Austria, MLS and more. CC0.
-- [football.json (openfootball)](https://github.com/openfootball/football.json) - Public-domain fixtures and results in JSON for the major European leagues, 2010/11 onward. CC0.
+- [football.json (openfootball)](https://github.com/openfootball/football.json) - Public-domain fixtures and results in JSON for the major European leagues, 2010/11 onward. CC0. A [worked outcome-rate example](https://betbase.site/en/guides/sports-betting/european-football-home-advantage-methodology) documents league-season aggregation for five leagues in 2020/21–2023/24, with [CC0 CSVs](https://doi.org/10.5281/zenodo.24287364).
 - [openfootball/world](https://github.com/openfootball/world) - Results for African (Egypt, Morocco, Algeria, Nigeria) and Asian (China, Japan) leagues in the openfootball text format. CC0.
 - [openfootball/south-america](https://github.com/openfootball/south-america) - Brazilian, Argentine and Colombian league results in the openfootball text format. CC0.
 - [openfootball/worldcup](https://github.com/openfootball/worldcup) - Every men's World Cup from 1930 to 2026 (including the 2026 fixtures) in the openfootball text format. CC0.
