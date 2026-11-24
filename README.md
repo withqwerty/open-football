@@ -31,6 +31,7 @@ One honest gap worth naming: genuinely open event or tracking data from Africa, 
 - [Impect Open Data](https://github.com/ImpectAPI/open-data) - Event data for the full 2023/24 Bundesliga season (306 matches), with packing, packing-xG, possession value (pxT) and per-match player KPIs; loadable via kloppy.
 - [Dynasty Scouting League 2024](https://github.com/Afriskaut/dynasty-scouting-league-2024-open-data) - Event data, lineups and match metadata from the 2024 Dynasty Scouting League, in JSONL. Apache 2.0.
 - [wosostats](https://github.com/amj2012/wosostats) - Hand-logged women's match event data from video (USWNT, NWSL, 2016 onward). Community-collected, now largely dormant. GPL-3.0.
+- [Sports Odds API](https://apify.com/publicrecords/sports-odds-api) - Live odds from 24 Kambi-powered sportsbooks (BetRivers, Unibet, Paf...) with best price per outcome (Apify Actor, API + MCP).
 
 ## Tracking data
 
