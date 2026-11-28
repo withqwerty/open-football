@@ -14,6 +14,25 @@ A resource does **not** belong here if using it requires breaching a website's
 terms of service. This list documents where open data legitimately lives; it
 does not endorse scraping against ToS.
 
+## What does not belong here
+
+- **Betting.** Tipsters, picks, odds feeds, odds archives and tools or datasets
+  mainly about betting. Match-outcome probabilities framed as betting prices
+  (for example 1X2 prices) also stay out. Football-data.co.uk is listed for its
+  match results and statistics. Its odds columns are incidental.
+- **Paid or hosted products.** Commercial APIs, paid scrapers and hosted
+  actors are not open data, even when they have a free tier. Free tooling that
+  fetches public data for the user is fine.
+- **Marketing links.** Do not add a link to your own site inside an existing
+  entry. Link to the data or the source repository, and make a separate entry
+  if the resource qualifies.
+- **Resources without a track record.** A new dataset or model needs a
+  documented source, a clear licence, and some history or independent use. If
+  it is brand new, open an issue and come back later.
+
+If you are the author or maintainer of the resource, say so in the PR. Your PR
+gets the same review as any other.
+
 ## How to add a source
 
 1. Fork the repo and edit `README.md`.

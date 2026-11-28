@@ -58,6 +58,7 @@ One honest gap worth naming: genuinely open event or tracking data from Africa, 
 - [English Women's Football (EWF) Database](https://github.com/probjects/ewf-database) - Women's Super League (from 2011) and Championship (from 2014) matches, appearances and standings. CC BY-SA 4.0.
 - [European Soccer Database](https://www.kaggle.com/datasets/hugomathien/soccer) - SQLite database of 25,000+ matches with events, lineups (X/Y), FIFA player and team attributes, and bookmaker odds across 11 European leagues (2008–2016). ODbL.
 - [BrazilianFootball/Data](https://github.com/BrazilianFootball/Data) - ~11,000 Brazilian matches scraped from official CBF match dockets, Série A–D and Copa do Brasil (2013–2025). MIT.
+- [Transfermarkt datasets (dcaribou)](https://github.com/dcaribou/transfermarkt-datasets) - 12 joinable tables built from Transfermarkt: 88,000+ games, 50,000+ players, appearances, market valuations, lineups and transfers, mainly top-flight competitions. Also on Kaggle. CC0. Updates paused since July 2026.
 
 ## Fantasy and ID maps
 
@@ -66,7 +67,7 @@ One honest gap worth naming: genuinely open event or tracking data from Africa, 
 
 ## Stats and ratings
 
-- [FBref](https://fbref.com/) - Detailed match, player, and team statistics for hundreds of competitions; every table on the site exports to CSV.
+- [FBref](https://fbref.com/) - Results, tables and basic match, player and team statistics for hundreds of competitions, plus a large historical archive; every table exports to CSV. Advanced stats (xG, progressive passes) stopped in January 2026, when its Opta licence ended.
 - [Understat](https://understat.com/) - Shot-level data with xG for the top six European leagues; every table can be exported to CSV.
 - [Club Elo](http://clubelo.com/) - Daily Elo ratings for European clubs back to 1939, with a free, keyless CSV API (http only).
 - [American Soccer Analysis](https://www.americansocceranalysis.com/) - Free public app and API for advanced MLS, NWSL and USL metrics (xG, goals added/g+, xPass).
