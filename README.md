@@ -56,7 +56,7 @@ One honest gap worth naming: genuinely open event or tracking data from Africa, 
 - [Fjelstul English Football Database](https://github.com/jfjelstul/englishfootball) - 208,028 Premier League and EFL matches (1888–2024), with appearances and standings, in CSV and R. CC BY-SA 4.0.
 - [Fjelstul World Cup Database](https://github.com/jfjelstul/worldcup) - Comprehensive men's and women's World Cup database: matches, goals, bookings and squads. CC BY-SA 4.0.
 - [English Women's Football (EWF) Database](https://github.com/probjects/ewf-database) - Women's Super League (from 2011) and Championship (from 2014) matches, appearances and standings. CC BY-SA 4.0.
-- [European Soccer Database](https://www.kaggle.com/datasets/hugomathien/soccer) - SQLite database of 25,000+ matches with events, lineups (X/Y), FIFA player and team attributes, and bookmaker odds across 11 European leagues (2008–2016). ODbL.
+- [European Soccer Database](https://www.kaggle.com/datasets/hugomathien/soccer) - SQLite database of 25,000+ matches with events, lineups (X/Y), FIFA player and team attributes, and bookmaker odds across 11 European leagues (2008–2016). Built from football-data.co.uk, SoFIFA and Enetscores data. ODbL.
 - [BrazilianFootball/Data](https://github.com/BrazilianFootball/Data) - ~11,000 Brazilian matches scraped from official CBF match dockets, Série A–D and Copa do Brasil (2013–2025). MIT.
 - [Transfermarkt datasets (dcaribou)](https://github.com/dcaribou/transfermarkt-datasets) - 12 joinable tables built from Transfermarkt: 88,000+ games, 50,000+ players, appearances, market valuations, lineups and transfers, mainly top-flight competitions. Also on Kaggle. CC0. Updates paused since July 2026.
 

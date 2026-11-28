@@ -37,6 +37,20 @@ and state the licence for each. The PR description must link to that statement.
 We list the upstream source instead when the dataset adds no data, IDs or
 coverage of its own.
 
+Show the sources in the entry, between the description and the licence:
+
+```
+- [Name](https://url) - What it covers, and the format. Built from Source A (licence), Source B (licence). Overall licence.
+```
+
+For example:
+
+```
+- [vereinsweg.de](https://www.vereinsweg.de/daten/) - Season histories of 129 German clubs and their matches, as JSON and CSV per club. Built from OpenLigaDB (ODbL), footballcsv and openfootball (CC0), German Wikipedia (CC BY-SA 4.0) and Wikidata (CC0). ODbL / CC BY-SA 4.0.
+```
+
+Original datasets, such as StatsBomb Open Data, need no "Built from" clause.
+
 ## Your own resource
 
 If you are the author or maintainer of the resource, say so in the PR. Your PR
