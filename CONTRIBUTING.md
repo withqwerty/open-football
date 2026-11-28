@@ -30,6 +30,15 @@ does not endorse scraping against ToS.
   documented source, a clear licence, and some history or independent use. If
   it is brand new, open an issue and come back later.
 
+## Repackaged data
+
+If a dataset is built from other sources, the page or repository must name them
+and state the licence for each. The PR description must link to that statement.
+We list the upstream source instead when the dataset adds no data, IDs or
+coverage of its own.
+
+## Your own resource
+
 If you are the author or maintainer of the resource, say so in the PR. Your PR
 gets the same review as any other.
 
